@@ -17,9 +17,6 @@ export class DashboardPage {
 
         this.avgPerExpenseWidget = page.locator('.rounded-lg')
             .filter({ hasText: 'Avg per Expense' })
-
-
-        
     }
 
     async goto(){

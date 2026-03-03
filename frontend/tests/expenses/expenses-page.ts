@@ -36,5 +36,4 @@ export class ExpensesPage {
     getExpenseByDescription(description: string) {
         return this.expensesList.getByRole('listitem').filter({ hasText: description })
     }
-
 }
